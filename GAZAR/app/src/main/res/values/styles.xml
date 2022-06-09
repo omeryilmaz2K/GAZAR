@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GAZAR PROJECT TEXT STYLE -->
+    <style name="StyleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/Size20</item>
+    </style>
+
+    <!-- GAZAR PROJECT ICON BUTTON STYLE -->
+    <style name="StyleIconButton" parent="Widget.Material3.Button.IconButton">
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <!-- GAZAR PROJECT BUTTON STYLE -->
+    <style name="StyleButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="backgroundTint">@color/ColorGazarGreen</item>
+        <item name="android:textSize">@dimen/Size20</item>
+    </style>
+
+    <!-- GAZAR PROJECT LOGİN BUTTON STYLE -->
+    <style name="StyleLgnButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/shape_btn</item>
+        <item name="backgroundTint">@color/ColorGazarYellow</item>
+        <item name="android:textSize">@dimen/Size20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- GAZAR PROJECT BORDERLESS BUTTON STYLE -->
+    <style name="StyleBorderlessButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/Size20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

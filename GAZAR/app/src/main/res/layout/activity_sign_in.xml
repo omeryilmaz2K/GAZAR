@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SignInActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape_loginleft" />
+
+    <ImageView
+        android:id="@+id/ShapeLgnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/shape_loginright" />
+
+    <ImageView
+        android:id="@+id/ShapeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/shape_onbleft" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ShapeLeft"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/shape_onbright" />
+
+    <Button
+        android:id="@+id/BtnHelp"
+        style="@style/StyleIconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/Margin10"
+        android:layout_marginTop="@dimen/Margin10"
+        android:layout_marginEnd="@dimen/Margin10"
+        android:layout_marginBottom="@dimen/Margin10"
+        app:icon="@drawable/icon_help" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/Margin45">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_gazar" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/InputEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusBottomEnd="@dimen/Margin5"
+            app:boxCornerRadiusBottomStart="@dimen/Margin5"
+            app:boxCornerRadiusTopEnd="@dimen/Margin5"
+            app:boxCornerRadiusTopStart="@dimen/Margin5">
+
+            <EditText
+                android:id="@+id/EdtTxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TextSgnEdtEmailHint"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/InputPass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin15"
+            app:boxCornerRadiusBottomEnd="@dimen/Margin5"
+            app:boxCornerRadiusBottomStart="@dimen/Margin5"
+            app:boxCornerRadiusTopEnd="@dimen/Margin5"
+            app:boxCornerRadiusTopStart="@dimen/Margin5">
+
+            <EditText
+                android:id="@+id/EdtTxtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TextSgnEdtPassHint2"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/BtnSignIn"
+            style="@style/StyleLgnButton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/Margin30"
+            android:drawableLeft="@drawable/icon_signin"
+            android:text="@string/TextSgnBtnLogin" />
+
+        <Button
+            android:id="@+id/BtnDontHaveAcc"
+            style="@style/StyleBorderlessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin30"
+            android:drawableLeft="@drawable/icon_drawableleft"
+            android:drawableRight="@drawable/icon_drawableright"
+            android:text="@string/TextSgnBtnDontHaveAcc" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnPrevious"
+        style="@style/StyleIconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/Margin15"
+        app:icon="@drawable/ic_previous" />
+
+</RelativeLayout>

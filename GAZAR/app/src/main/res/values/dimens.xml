@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GAZAR PROJECT SİZES -->
+    <dimen name="Size20">20sp</dimen>
+    <dimen name="Size18">18sp</dimen>
+    <dimen name="Size15">15sp</dimen>
+
+    <!-- GAZAR PROJECT MARGİNS -->
+    <dimen name="Margin100">100dp</dimen>
+    <dimen name="Margin15">15dp</dimen>
+    <dimen name="Margin30">30dp</dimen>
+    <dimen name="Margin10">10dp</dimen>
+    <dimen name="Margin45">45dp</dimen>
+    <dimen name="Margin5">5dp</dimen>
+    <dimen name="Margin20">20dp</dimen>
+</resources>

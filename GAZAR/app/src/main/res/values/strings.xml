@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GAZAR</string>
+
+    <!-- GAZAR PROJECT TEXTS -->
+    <string name="TextMainSlogan">ALIR, SATAR,\nHAYATINIZA KOLAYLIK KATAR.</string>
+    <string name="TextOnbBtnSkip">ATLA</string>
+    <string name="TextOnbSlogan1">Fiyatlar çok mu yüksek?\nO zaman ikinci el almaya ne dersin!</string>
+    <string name="TextOnbSlogan2">Gazar sizler için en iyi ikinci el eşyaları\nlisteler!</string>
+    <string name="TextOnb2Slogan">Gazar sizler için fazlalık eşyalarınızı\nsatmaya hazır!</string>
+    <string name="TextHint1">Üye Ol</string>
+    <string name="TextHint2">Eşyanın Fotoğrafını Çek</string>
+    <string name="TextHint3">Yükle</string>
+    <string name="TextHint4">Kolaylıkla Sat!</string>
+    <string name="TextOnbBtnStart">BAŞLA</string>
+    <string name="TextLgnBtnFb">Facebook ile Giriş Yap</string>
+    <string name="TextLgnBtnGg">Google ile Giriş Yap</string>
+    <string name="TextLgnBtnSignUp">Eposta ile Kayıt Ol</string>
+    <string name="TextLgnBtnEmail">Eposta ile Giriş Yap</string>
+    <string name="TextLgnBtnWithoutAcc">Üye Olmadan Devam Et</string>
+    <string name="TextSgnEdtEmailHint">Eposta Adresinizi Giriniz</string>
+    <string name="TextSgnEdtPassHint">Şifrenizi Oluşturunuz</string>
+    <string name="TextSgnBtnRegister">Kayıt Ol</string>
+    <string name="TextSgnBtnHaveAcc">Üyeliğin Var Mı?</string>
+    <string name="TextSgnEdtPassHint2">Şifrenizi Giriniz</string>
+    <string name="TextSgnBtnLogin">Giriş Yap</string>
+    <string name="TextSgnBtnDontHaveAcc">Üyeliğin Yok Mu?</string>
+    <string name="TextHomeFastCategories1">Ev Eşyaları</string>
+    <string name="TextHomeFastCategories2">Elektronik</string>
+    <string name="TextHomeFastCategories3">Giyim</string>
+    <string name="TextHomeFastCategories4">Spor</string>
+    <string name="TextHomeLocation">Konumunuzdan</string>
+    <string name="TextHomeNewAdded">Yeni Eklenenler</string>
+    <string name="TextAddTitleHint">Başlık Giriniz</string>
+    <string name="TextAddDescriptionHint">Açıklama Giriniz</string>
+    <string name="TextAddPriceHint">Fiyat Bilgisi Giriniz</string>
+    <string name="TextBtnAddPhotos">Fotoğraf Yükle</string>
+
+    <string name="NavMenuOpen">AÇIK</string>
+    <string name="NavMenuClose">KAPALI</string>
+</resources>

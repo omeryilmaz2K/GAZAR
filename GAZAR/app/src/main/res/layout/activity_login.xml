@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape_loginleft" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/shape_loginright" />
+
+    <ImageView
+        android:id="@+id/ShapeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/shape_onbleft" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ShapeLeft"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/shape_onbright" />
+
+    <Button
+        android:id="@+id/BtnHelp"
+        style="@style/StyleIconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/Margin10"
+        android:layout_marginTop="@dimen/Margin10"
+        android:layout_marginEnd="@dimen/Margin10"
+        android:layout_marginBottom="@dimen/Margin10"
+        app:icon="@drawable/icon_help" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_gazar" />
+
+        <Button
+            style="@style/StyleLgnButton"
+            android:drawableLeft="@drawable/icon_facebook"
+            android:fontFamily="@font/roboto"
+            android:text="@string/TextLgnBtnFb" />
+
+        <Button
+            style="@style/StyleLgnButton"
+            android:layout_marginTop="@dimen/Margin15"
+            android:drawableLeft="@drawable/icon_google"
+            android:text="@string/TextLgnBtnGg" />
+
+        <Button
+            android:id="@+id/BtnSignUpEmail"
+            style="@style/StyleLgnButton"
+            android:layout_marginTop="@dimen/Margin15"
+            android:drawableLeft="@drawable/icon_signup"
+            android:text="@string/TextLgnBtnSignUp" />
+
+        <Button
+            android:id="@+id/BtnSignInEmail"
+            style="@style/StyleLgnButton"
+            android:layout_marginTop="@dimen/Margin15"
+            android:drawableLeft="@drawable/icon_signin"
+            android:text="@string/TextLgnBtnEmail" />
+
+        <Button
+            android:id="@+id/BtnWithoutAccount"
+            style="@style/StyleBorderlessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin15"
+            android:drawableLeft="@drawable/icon_drawableleft"
+            android:drawableRight="@drawable/icon_drawableright"
+            android:text="@string/TextLgnBtnWithoutAcc" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

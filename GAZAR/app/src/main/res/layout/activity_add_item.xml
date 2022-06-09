@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".View.AddItemActivity">
+
+    <Button
+        android:id="@+id/BtnPrevious"
+        style="@style/StyleIconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/Margin15"
+        app:icon="@drawable/ic_previous" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/BtnPrevious">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/Margin30"
+            android:paddingTop="@dimen/Margin15"
+            android:paddingRight="@dimen/Margin30"
+            android:paddingBottom="@dimen/Margin30">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin5"
+                android:layout_marginBottom="@dimen/Margin5" />
+
+            <TextView
+                android:id="@+id/ImgsCaption"
+                style="@style/StyleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin5"
+                android:layout_marginBottom="@dimen/Margin5"
+                android:text="Fotoğraflar (0)"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/BtnAddImg"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TextBtnAddPhotos"
+                android:textColor="@color/black"
+                android:textSize="@dimen/Size18"
+                app:icon="@drawable/ic_addphotos"
+                app:iconGravity="textTop"
+                app:iconPadding="@dimen/Margin5"
+                app:iconSize="48dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/InputTitle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin15"
+                app:boxCornerRadiusBottomEnd="@dimen/Margin5"
+                app:boxCornerRadiusBottomStart="@dimen/Margin5"
+                app:boxCornerRadiusTopEnd="@dimen/Margin5"
+                app:boxCornerRadiusTopStart="@dimen/Margin5">
+
+                <EditText
+                    android:id="@+id/EdtTxtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/TextAddTitleHint"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/InputDescription"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin15"
+                app:boxCornerRadiusBottomEnd="@dimen/Margin5"
+                app:boxCornerRadiusBottomStart="@dimen/Margin5"
+                app:boxCornerRadiusTopEnd="@dimen/Margin5"
+                app:boxCornerRadiusTopStart="@dimen/Margin5">
+
+                <EditText
+                    android:id="@+id/EdtTxtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:hint="@string/TextAddDescriptionHint"
+                    android:inputType="textMultiLine"
+                    android:lines="5" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/InputPrice"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin15"
+                app:boxCornerRadiusBottomEnd="@dimen/Margin5"
+                app:boxCornerRadiusBottomStart="@dimen/Margin5"
+                app:boxCornerRadiusTopEnd="@dimen/Margin5"
+                app:boxCornerRadiusTopStart="@dimen/Margin5">
+
+                <EditText
+                    android:id="@+id/EdtTxtPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/TextAddPriceHint"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/BtnAddItem"
+                style="@style/StyleButton"
+                android:layout_marginTop="@dimen/Margin15"
+                android:text="EKLE" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

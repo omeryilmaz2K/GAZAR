@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable-anydpi/ic_next.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable/ic_addphotos.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable/ic_help.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/drawable/shape_btn.xml" value="0.1625" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/font/roboto.xml" value="0.29846153846153844" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_add_item.xml" value="0.22119037568594344" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_home_with_account.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_home_without_account.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_onboarding1.xml" value="0.25" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_onboarding2.xml" value="0.25" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_sign_in.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/fragment_categories.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/fragment_home_without_account.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/fragment_profile.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/fragment_without_account_home.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/item_added.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/item_image.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/item_img.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/layout/item_newadded.xml" value="0.22402736212056434" />
+        <entry key="..\:/Users/omiyi/AndroidStudioProjects/GAZAR/app/src/main/res/menu/nav_menu.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

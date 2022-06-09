@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837273466750",
+    "project_id": "gazarbase",
+    "storage_bucket": "gazarbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837273466750:android:5bfa66d2babed9aa95652f",
+        "android_client_info": {
+          "package_name": "com.devsgazar.gazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837273466750-j4k0pl7ak49tmehasc51bgii3f79bjqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyig8cJNWWqcv7XbuR3tCiHIkjCu_zNE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837273466750-j4k0pl7ak49tmehasc51bgii3f79bjqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
