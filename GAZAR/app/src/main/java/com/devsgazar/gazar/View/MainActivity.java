@@ -13,7 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-
+    
     private FirebaseAuth BaseAuth;
     private FirebaseUser BaseUser;
     private Handler Handle;
@@ -47,14 +47,6 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-    public boolean AccessControl() {
-        BaseUser = BaseAuth.getCurrentUser();
-        if (BaseUser != null) {
-            return true;
-        }
-        return false;
-    }
-
     public void SplashEvent() {
         if (AccessControl()) {
             Handle.postDelayed(new Runnable() {
@@ -75,5 +67,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }, 3000);
         }
+    }
+
+    public boolean AccessControl() {
+        BaseUser = BaseAuth.getCurrentUser();
+        if (BaseUser != null) {
+            return true;
+        }
+        return false;
     }
 }
